@@ -1,6 +1,5 @@
 programa
 {
-	//Rhuan
 	
 	funcao inicio()
 	{
@@ -11,7 +10,7 @@ programa
 		leia(ano_nasc)
 
 		idade = ano_atual - ano_nasc
-		escreva("Sua idade é: ", idade)
+		escreva("Sua idade é: \n", idade)
 			
 	
 	}
