@@ -1,14 +1,17 @@
 programa
-{	//Rhuan
+{
+	//Rhuan
 	
 	funcao inicio()
 	{
-		inteiro anoNasc, idade
+		inteiro ano_nasc, idade, ano_atual = 2026
 		
-		escreva("Digite o ano do seu nascimento")
-		leia(anoNasc)
-		idade = 2026 - anoNasc
-		escreva("SUa idade é: ", idade)
+		escreva("Digite o ano do seu nascimento\n")
+		
+		leia(ano_nasc)
+
+		idade = ano_atual - ano_nasc
+		escreva("Sua idade é: ", idade)
 			
 	
 	}
